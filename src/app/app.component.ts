@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   isAuth: boolean = false;
+
+  constructor() {
+    setTimeout(
+      () => {
+        this.isAuth = true;
+      },
+      4000
+    );
+  }
+
+  onAllumer() {
+    console.log('On allume tout !');
+  }
 }

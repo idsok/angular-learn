@@ -8,6 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   isAuth: boolean = false;
 
+  appareilOne: string = 'Premier appareil';
+  appareilTwo: string = 'Deuxième appareil';
+  appareilThree: string = 'Troisième appareil';
+
   constructor() {
     setTimeout(
       () => {
